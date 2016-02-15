@@ -6,7 +6,7 @@ var HOSTNAME = 'localhost',
     PORT = 8080,
     PUBLIC_DIR = __dirname + '/public_html';
 
- var request_counter = 0;   
+var request_counter = 0;   
 
 app.use(function (req, res, done) {
 	// Здесь нужно написать журналирование в формате
