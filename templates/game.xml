@@ -1,0 +1,13 @@
+<!-- <fest:template xmlns:fest="http://fest.mail.ru">
+    <div id="game"></div>
+</fest:template>
+ -->
+ <fest:template xmlns:fest="http://fest.mail.ru" context_name="context">
+    <fest:text>
+        <div id="content">
+        	<h1 class="hat">  <fest:value>currentScreen</fest:value>  </h1>
+				<button class="button" id="js-back"> <span class="treangle">&#9665;</span> BACK</button>
+           
+        </div>
+    </fest:text>
+</fest:template>
